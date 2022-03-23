@@ -1,0 +1,26 @@
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Lumber Picker.exe.config
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Lumber Picker.exe
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Lumber Picker.pdb
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Environments.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Ookii.Dialogs.WinForms.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\ParagonApi.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Buffers.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Memory.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Resources.Extensions.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\Ookii.Dialogs.WinForms.pdb
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Buffers.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Memory.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Resources.Extensions.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber Picker.csproj.AssemblyReference.cache
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber_Picker.Form1.resources
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber_Picker.Properties.Resources.resources
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber Picker.csproj.GenerateResource.cache
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber Picker.csproj.CoreCompileInputs.cache
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber Picker.exe
+C:\Users\dan\source\repos\Lumber Picker\Lumber Picker\obj\Debug\Lumber Picker.pdb
