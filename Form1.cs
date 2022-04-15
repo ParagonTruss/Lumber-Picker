@@ -18,8 +18,8 @@ namespace Lumber_Picker
     public partial class Form1 : Form
     {
         public static string StationName = "Floor Station";
-        //public static List<Chord> Chords = new List<Chord>();
-        public static List<Member> Chords = new List<Member>();
+        public static List<Chord> Chords = new List<Chord>();
+        //public static List<Member> Chords = new List<Member>();
         public Form1()
         {
             InitializeComponent();
@@ -94,7 +94,15 @@ namespace Lumber_Picker
                         var totalQuantity = truss.Quantity * truss.Truss.Plies;
                         for (int i = 0; i < totalQuantity; i++)
                         {
-                            Chords.AddRange(truss.Truss.Members.Where(member => member.Type == "TopChord"|| member.Type== "BottomChord"));
+                            var paragonChords = truss.Truss.Members.Where(member => member.Type == "TopChord"|| member.Type== "BottomChord");
+                            var orderedChords = paragonChords.OrderByDescending(chord => chord.Geometry.Max(Point => Point.Y))
+                                                             .ThenBy(chord => chord.Geometry.Min(point => point.X))
+                                                             .ToList();
+                            foreach (var chord in orderedChords)
+                            {
+                                var newChord = new Chord(chord, $"{truss.Truss.Name} ({(i + 1)})");
+                                Chords.Add(newChord);
+                            }
                         }
                     }
                 }
