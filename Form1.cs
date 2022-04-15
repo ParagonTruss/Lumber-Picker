@@ -111,12 +111,12 @@ namespace Lumber_Picker
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var rackDictionary
+        }
 
-        //load tres into Paragon
-        // load count file
-        // get the trusses back from paragon
-        // create list of chords, Truss Name, Chord Name, Length, Grade, Treatment, width
-        // display chords in datagridview
+
 
     }
 }

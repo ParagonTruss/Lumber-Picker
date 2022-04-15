@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.ComponentModel;
+using System.Globalization;
 
 namespace Lumber_Picker
 {
@@ -13,8 +16,19 @@ namespace Lumber_Picker
         {
             Name = member.Name;
             TrussName = trussName;
+            Length = member.OverallLength;
+            Grade = member.Lumber.Grade;
+            Species = member.Lumber.Species;
+            Treatment = member.Lumber.TreatmentType;
+
         }
-        public string Name { get; set; }
-        public string TrussName { get; set; }
+        public string Name { get; }
+        public string TrussName { get; }
+        //[DisplayMember("chord Length")]
+        public double Length { get; }
+        public string Grade { get; }
+        public string Species { get; }
+        public string Treatment { get; }
+        public string StockItem { get; set; }
     }
 }
